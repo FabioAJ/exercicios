@@ -5,7 +5,6 @@ Objetivo sucinto do programa: Cria contas bancarias que pode ser modificadas com
 Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/1Uq6IUqO100w2ylIxVi17RTwYLo-ljPu2YGu7KPPDydg/edit
 */
 
-
 public class TestaContaBancaria {
 
     public static void main(String[] args) {
