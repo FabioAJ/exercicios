@@ -46,7 +46,7 @@ public class Lutador{
         System.out.println("Tem " + this.getEmpates() + " empates");
     }
 
-    public String getNome(){
+    public String getNome() {
         return nome;
     }
 
