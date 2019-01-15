@@ -21,6 +21,10 @@ public class UltraEmojiCombat {
         l[5] = new Lutador("Nerdaart", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
 
         l[1].apresentar();
+        l[1].ganharLuta();
+        l[1].empatarLuta();
+        l[1].perderLuta();
+        l[1].apresentar();
         l[4].status();
     }
 }

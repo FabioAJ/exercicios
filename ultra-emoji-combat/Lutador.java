@@ -84,6 +84,18 @@ public class Lutador{
         }
     }
 
+    public void ganharLuta() {
+        setVitorias(getVitorias() + 1);
+    }
+
+    public void perderLuta() {
+        setDerrotas(getDerrotas() + 1);
+    }
+
+    public void empatarLuta() {
+        setEmpates(getEmpates() + 1);
+    }
+
     public double getAltura(){
         return altura;
     }
@@ -121,7 +133,7 @@ public class Lutador{
         return derrotas;
     }
 
-    public void setDerrotas(int idade) {
+    public void setDerrotas(int derrotas) {
         this.derrotas = derrotas;
     }
 
