@@ -1,7 +1,7 @@
 /*
 Nome do autor: Fábio Augusto Amaro Jaime
 Data de criação do arquivo: 16/01/2019
-Objetivo sucinto do programa: A classe placa de video é implementada na classe Computador
+Objetivo sucinto do programa: A classe placa de video implementa a interface Computador
 Referência ao enunciado/origem do exercício: https://docs.oracle.com/javase/tutorial/java/concepts/QandE/questions.html
 */
 

@@ -25,10 +25,10 @@ public class UltraEmojiCombat {
         UEC01.lutar();
 
         l[1].apresentar();
-        // l[1].ganharLuta();
-        // l[1].empatarLuta();
-        // l[1].perderLuta();
-        // l[1].apresentar();
-        // l[4].status();
+        l[1].ganharLuta();
+        l[1].empatarLuta();
+        l[1].perderLuta();
+        l[1].apresentar();
+        l[4].status();
     }
 }
