@@ -9,10 +9,13 @@ public class TestAuthorBook {
 
 	public static void main(String[] args) {
 
-		Author author = new Author("Echiro Oda", "Echiro@gmail.com", 'M');
-		Book book = new Book("One Piece", author, 11, 30);
+		Author[] authors = new Author[2];
+		authors[0] = new Author("Echiro Oda ", "Echiro@gmail.com", 'M');
+		authors[1] = new Author("Jorgin", "Jorgin@gmail.com", 'M');
+		Book book = new Book("One Piece", authors, 11, 30);
 
 		System.out.println(book.toString());
+		
 	}
 
 }
