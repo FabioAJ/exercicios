@@ -7,21 +7,20 @@ Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/
 
 public class Book {
 	private String name;
-	private Author author;
+	private Author[] authors;
 	private double price;
 	private int qty = 0;
 
-	public Book(String name, Author author, double price, int qty) {
-		super();
+	public Book(String name, Author[] authors, double price, int qty) {
 		this.name = name;
-		this.author = author;
+		this.authors = authors;
 		this.price = price;
 		this.qty = qty;
 	}
 
-	public Book(String name, Author author, double price) {
+	public Book(String name, Author[] authors, double price) {
 		this.name = name;
-		this.author = author;
+		this.authors = authors;
 		this.price = price;
 	}
 
@@ -29,8 +28,9 @@ public class Book {
 		return name;
 	}
 
-	public Author getAuthor() {
-		return author;
+	
+	public Author[] getAuthors() {
+		return authors;
 	}
 
 	public double getPrice() {
@@ -51,6 +51,22 @@ public class Book {
 
 	@Override
 	public String toString() {
-		return "Book [name=" + name + ", Author[" + author + "], price=" + price + ", qty=" + qty + "]";
+		String dataAuthors = "";
+
+		for (int i = 0; i < authors.length; i++) {
+			dataAuthors += authors[i].toString() + (i < authors.length - 1 ? ", " : "");
+		}
+
+		return "Book [name=" + name + ", Authors={" + dataAuthors + "}, price=" + price + ", qty=" + qty + "]";
+	}
+
+	public String getAuthorNames() {
+
+		String names = "";
+
+		for (int i = 0; i < authors.length; i++) {
+			names += authors[i].getName() + (i < authors.length - 1 ? ", " : "");
+		}
+		return names;
 	}
 }
