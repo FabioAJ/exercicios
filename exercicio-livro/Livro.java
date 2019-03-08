@@ -1,7 +1,7 @@
 /*
 Nome do autor: Fábio Augusto Amaro Jaime
 Data de criação do arquivo: 19/12/2018
-Objetivo sucinto do programa: Cria livros que pode ser modificada com metodos sets e get.
+Objetivo sucinto do programa: Cria livros com datas de devolucao, emprestimo, status do livro titulo e autor.
 Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/1Uq6IUqO100w2ylIxVi17RTwYLo-ljPu2YGu7KPPDydg/edit
 */
 
@@ -168,7 +168,7 @@ public class Livro{
         return disponiveis;
     }
 
-    public static String exibirLivrosAtrasados(Livro[] arr) {      //ta erra
+    public static String exibirLivrosAtrasados(Livro[] arr) {
         if (arr.length == 0 || arr == null) {
             return "nao ha livros";
         }

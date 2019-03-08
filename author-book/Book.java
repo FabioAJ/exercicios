@@ -1,8 +1,8 @@
 /*
-Nome do autor: Fábio Augusto Amaro Jaime
-Data de criação do arquivo: 23/01/2019
-Objetivo sucinto do programa: Cria uma classe Book
-Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/1Znd6TTkM0lh0M9vUTP1yVve8KSKEn8TlKzfJf8zyX9U/edit 
+Nome do autor: Fï¿½bio Augusto Amaro Jaime
+Data de criaï¿½ï¿½o do arquivo: 23/01/2019
+Objetivo sucinto do programa: Cria livros com seus precos quantidades nomes e autores
+Referï¿½ncia ao enunciado/origem do exercï¿½cio: https://docs.google.com/document/d/1Znd6TTkM0lh0M9vUTP1yVve8KSKEn8TlKzfJf8zyX9U/edit
 */
 
 public class Book {

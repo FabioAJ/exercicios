@@ -1,8 +1,8 @@
 /*
-Nome do autor: Fábio Augusto Amaro Jaime
-Data de criação do arquivo: 23/01/2019
-Objetivo sucinto do programa: Cria uma classe que testa as classes Book e Author.
-Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/1wSPKmVGsvzHlM13SY_IxCcqA1AhFboDvSy6M6NqOTfY/edit
+Nome do autor: Fï¿½bio Augusto Amaro Jaime
+Data de criaï¿½ï¿½o do arquivo: 23/01/2019
+Objetivo sucinto do programa: Cria uma classe que testa as classes Book e Author com array.
+Referï¿½ncia ao enunciado/origem do exercï¿½cio: https://docs.google.com/document/d/1wSPKmVGsvzHlM13SY_IxCcqA1AhFboDvSy6M6NqOTfY/edit
 */
 
 public class TestAuthorBook {
@@ -15,7 +15,7 @@ public class TestAuthorBook {
 		Book book = new Book("One Piece", authors, 11, 30);
 
 		System.out.println(book.toString());
-		
+
 	}
 
 }

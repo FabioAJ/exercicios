@@ -1,8 +1,8 @@
 /*
-Nome do autor: Fábio Augusto Amaro Jaime
-Data de criação do arquivo: 01/02/2019
-Objetivo sucinto do programa: Cria a classe Circle, Cylinder e as testam mostrando uma composição 
-Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/1wSPKmVGsvzHlM13SY_IxCcqA1AhFboDvSy6M6NqOTfY/edit
+Nome do autor: Fï¿½bio Augusto Amaro Jaime
+Data de criaï¿½ï¿½o do arquivo: 01/02/2019
+Objetivo sucinto do programa: Cria a classe cylinder que foi extendida de circle 
+Referï¿½ncia ao enunciado/origem do exercï¿½cio: https://docs.google.com/document/d/1wSPKmVGsvzHlM13SY_IxCcqA1AhFboDvSy6M6NqOTfY/edit
 */
 
 public class Cylinder extends Circle{
@@ -11,8 +11,8 @@ public class Cylinder extends Circle{
 	public Cylinder() {
 		super();
 	}
-	
-	
+
+
 	public Cylinder(double radius,double height) {
 		super(radius);
 		this.height = height;
@@ -22,19 +22,19 @@ public class Cylinder extends Circle{
 		super(radius, color);
 		this.height = height;
 	}
-	
+
 	public double getHeight() {
 		return height;
 	}
-	
+
 	public double getArea() {
 		return (2 * Math.PI * Math.pow(super.getRadius(), 2)) + this.height * (super.getArea());
 	}
-	
+
 	public void setHeight(double height) {
 		this.height = height;
 	}
-	
+
 	public double getVolume() {
 		return super.getArea() * this.height;
 	}

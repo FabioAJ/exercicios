@@ -1,29 +1,29 @@
 /*
-Nome do autor: Fábio Augusto Amaro Jaime
-Data de criação do arquivo: 31/01/2019
-Objetivo sucinto do programa: Cria uma conta
-Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/1wSPKmVGsvzHlM13SY_IxCcqA1AhFboDvSy6M6NqOTfY/edit
+Nome do autor: Fï¿½bio Augusto Amaro Jaime
+Data de criaï¿½ï¿½o do arquivo: 31/01/2019
+Objetivo sucinto do programa: Cria uma conta de banco
+Referï¿½ncia ao enunciado/origem do exercï¿½cio: https://docs.google.com/document/d/1wSPKmVGsvzHlM13SY_IxCcqA1AhFboDvSy6M6NqOTfY/edit
 */
 
 public class Account {
 	private int id;
 	private Customer customer;
 	private double balance = 0.0;
-	
+
 	public Account(int id, Customer customer, double balance) {
 		super();
 		this.id = id;
 		this.customer = customer;
 		this.balance = balance;
 	}
-	
+
 	public Account(int id, Customer customer) {
 		super();
 		this.id = id;
 		this.customer = customer;
 	}
 
-	
+
 	public int getId() {
 		return id;
 	}
@@ -42,7 +42,7 @@ public class Account {
 		this.balance = balance;
 	}
 
-	
+
 	@Override
 	public String toString() {
 		return customer.toString() + " balance = $" + this.getBalance();
@@ -51,7 +51,7 @@ public class Account {
 	public String getCustomerName() {
 		return customer.getName();
 	}
-	
+
 	public String credit(double value) {
         balance += value;
         return "You had added " + value;

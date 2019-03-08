@@ -1,8 +1,8 @@
 /*
-Nome do autor: Fábio Augusto Amaro Jaime
-Data de criação do arquivo: 01/02/2019
-Objetivo sucinto do programa: Cria a classe Circle, Cylinder e as testam mostrando uma composição 
-Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/1wSPKmVGsvzHlM13SY_IxCcqA1AhFboDvSy6M6NqOTfY/edit
+Nome do autor: Fï¿½bio Augusto Amaro Jaime
+Data de criaï¿½ï¿½o do arquivo: 01/02/2019
+Objetivo sucinto do programa: Cria a classe Circle que extende para circle
+Referï¿½ncia ao enunciado/origem do exercï¿½cio: https://docs.google.com/document/d/1wSPKmVGsvzHlM13SY_IxCcqA1AhFboDvSy6M6NqOTfY/edit
 */
 
 public class Circle {
@@ -10,7 +10,7 @@ public class Circle {
 	private String color = "Red";
 
 	public Circle() {
-		
+
 	}
 
 	public Circle(double radius) {

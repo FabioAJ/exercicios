@@ -1,7 +1,7 @@
 /*
 Nome do autor: Fábio Augusto Amaro Jaime
 Data de criação do arquivo: 12/12/2018
-Objetivo sucinto do programa: Cria um circulo que pode ser modificado com metodos set e get
+Objetivo sucinto do programa: Testa um circulo que pode ser modificado com metodos set e get
 Referência ao enunciado/origem do exercício: https://docs.google.com/document/d/1Uq6IUqO100w2ylIxVi17RTwYLo-ljPu2YGu7KPPDydg/edit
 */
 
